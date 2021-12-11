@@ -61,3 +61,15 @@ h2 {
     justify-content: center;
   }
 }
+
+@media (max-width: 700px) {
+  .pokeForm {
+    width: 35% !important;
+  }
+}
+
+@media (max-width: 500px) {
+  .pokeForm {
+    width: 50% !important;
+  }
+}

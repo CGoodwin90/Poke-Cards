@@ -5,9 +5,23 @@ import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 export const About = () => {
     return (
-        <div className="tc bg-navy dib br3 pa3 ma2 bw2 shadow-5 white w-two-thirds">
+        <div className="tc bg-navy dib br3 pa3 bw2 shadow-5 white">
             <h2>Hi, I'm Chris!</h2>
-            <p>I'm a Full-stack Developer born in Australia, and currently living in Melbourne. A secret coder and developer at heart, I studied Criminology and worked in IT for 5 years. I'm now a Front-end web developer looking to expand my technical skills, network and industry experience.</p>
+            <p dir="auto">I'm a Front-End Developer, looking to transition to Full-Stack development.</p>
+            <ul className="tl">
+                <li><g-emoji class="g-emoji" alias="wave" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f44b.png">👋</g-emoji> &nbsp;I'm currently working as a Front-End Developer at Nintendo Australia</li>
+                <li>👨🏻‍💻 &nbsp;In the office I use: <code>HTML/CSS</code>, <code>JavaScript</code>, <code>Vue</code>, <code>Nuxt</code>, <code>Vercel</code></li>
+                <li><g-emoji class="g-emoji" alias="house_with_garden" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f3e1.png">🏡</g-emoji> &nbsp;At home I use: <code>React</code>, <code>Ruby</code>, <code>Rails</code></li>
+                <li><g-emoji class="g-emoji" alias="seedling" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f331.png">🌱</g-emoji> &nbsp;I’m currently learning:
+                <ul>
+                    <li>The more advanced concepts of Ruby/Rails</li>
+                    <li>React - intermediate levels</li>
+                    <li>JavaScript - the weird &amp; wonderful</li>
+                </ul>
+                </li>
+                <li><g-emoji class="g-emoji" alias="mailbox" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f4eb.png">📫</g-emoji> &nbsp;Reach out on LinkedIn - <a href="https://www.linkedin.com/in/chris-goodwin-bb85a416a/" rel="nofollow">https://www.linkedin.com/in/chris-goodwin-bb85a416a/</a></li>
+            </ul>
+            <hr/>
             <h2 className="mt4">About This App</h2>
             <p>My first React project - search Pokémon leveraging the <a href="https://pokeapi.co/" rel="noreferrer" target='_blank'>PokéAPI</a></p>
             <p>Version 1.0.1</p>
