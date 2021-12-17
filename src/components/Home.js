@@ -25,7 +25,8 @@ export const Home = () => {
             alert("Please enter a Pokemon to search")
             return;
         }
-        fetch(`https://pokeapi.co/api/v2/pokemon/${poke}`)
+        let pokeValue = poke.toLowerCase()
+        fetch(`https://pokeapi.co/api/v2/pokemon/${pokeValue}`)
             .then(response => {
                 if (response.ok) {
                     response = response.json()

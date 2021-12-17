@@ -8,7 +8,7 @@ export const About = () => {
         <div className="tc bg-navy dib br3 pa3 bw2 shadow-5 white">
             <h2>Hi, I'm Chris!</h2>
             <p dir="auto">I'm a Front-End Developer, looking to transition to Full-Stack development.</p>
-            <ul className="tl">
+            <ul className="tl about-info">
                 <li><g-emoji class="g-emoji" alias="wave" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f44b.png">👋</g-emoji> &nbsp;I'm currently working as a Front-End Developer at Nintendo Australia</li>
                 <li>👨🏻‍💻 &nbsp;In the office I use: <code>HTML/CSS</code>, <code>JavaScript</code>, <code>Vue</code>, <code>Nuxt</code>, <code>Vercel</code></li>
                 <li><g-emoji class="g-emoji" alias="house_with_garden" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f3e1.png">🏡</g-emoji> &nbsp;At home I use: <code>React</code>, <code>Ruby</code>, <code>Rails</code></li>
